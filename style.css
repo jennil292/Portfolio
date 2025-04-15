@@ -1,0 +1,23 @@
+.typewriter-text {
+  white-space: nowrap;           /* Empêche le texte de passer à la ligne */
+  overflow: hidden;              /* Cache le débordement */
+  text-overflow: ellipsis;       /* Affiche "..." si ça dépasse */
+  max-width: 100%;               /* Ne dépasse pas la largeur du conteneur */
+  font-size: 1.2rem;             /* Taille raisonnable pour une navbar */
+  color: white;                  /* Pour rester visible sur bg-dark */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .typewriter-text {
+    font-size: 1rem;             /* Plus petit sur mobile */
+  }
+}
+
+
+.text {
+  /*Texte de la box Formation*/
+  font-size: 10px;
+}
+
+
